@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Type checker
+.mypy_cache/
+
+# Linter/formatter
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated output
+qrcode.png
