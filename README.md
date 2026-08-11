@@ -4,6 +4,7 @@ A small collection of Python mini-projects created for learning and experimentat
 
 ## Projects
 
+- **gemini-chat-bot** — Primary project: a Gemini-based chat bot (main project).
 - **qr-generator** — A simple command-line QR code generator.
 - **text-to-speech** — A CLI tool that converts text to MP3 using Google Text-to-Speech.
 
@@ -13,6 +14,16 @@ A small collection of Python mini-projects created for learning and experimentat
 - `uv` installed and available on your PATH
 
 ## Quick start
+
+### gemini-chat-bot
+
+```powershell
+cd projects\gemini-chat-bot
+uv install
+uv run gemini-chat-bot
+```
+
+Follow the prompts to configure and start the Gemini chat bot.
 
 ### qr-generator
 

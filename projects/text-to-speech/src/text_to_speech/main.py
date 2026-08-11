@@ -1,6 +1,6 @@
-import questionary  # type: ignore
-from rich.console import Console  # type: ignore
-from rich.panel import Panel  # type: ignore
+import questionary
+from rich.console import Console
+from rich.panel import Panel
 
 from text_to_speech.tts import text_to_speech
 

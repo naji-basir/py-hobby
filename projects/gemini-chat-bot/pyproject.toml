@@ -1,0 +1,21 @@
+[project]
+name = "gemini-chat-bot"
+version = "0.1.0"
+description = "A terminal chatbot powered by the Gemini API"
+readme = "README.md"
+authors = [
+    { name = "Basir Naji", email = "basirnaji007@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.17.0",
+    "python-dotenv>=1.2.2",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+gemini-chat-bot = "gemini_chat_bot.main:chat_loop"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
