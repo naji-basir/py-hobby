@@ -1,0 +1,26 @@
+[project]
+name = "youtube-video-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Basir Naji", email = "basirnaji007@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "questionary>=2.1.1",
+    "rich>=15.0.0",
+    "yt-dlp>=2026.8.19",
+]
+
+[project.scripts]
+youtube-video-downloader = "youtube_video_downloader.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.4",
+]
