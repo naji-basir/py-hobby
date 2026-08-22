@@ -12,4 +12,6 @@ if not GEMINI_API_KEY:
         "GEMINI_API_KEY is not set. " "Create a .env file and add your Gemini API key."
     )
 
-GEMINI_MODEL = "gemini-3.6-flash"
+# GEMINI_MODEL = "gemini-3.6-flash"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
+# GEMINI_MODEL = "gemini-3.5-flash"
